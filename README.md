@@ -1,17 +1,19 @@
-# Photoshop Windows 故障案例与验证记录
-Photoshop Windows troubleshooting case studies
+# PS 开了自动恢复还是丢文件？放着不用就闪退怎么办？
+Photoshop AutoRecover not working and crashes when idle
 
 记录日期：2026-11-02
 
-两个来自 Windows 26H2（构建 26340.9843）/ Photoshop 2026 27.8.0.13 的本机案例：AutoRecover 恢复目录为空，以及网络连接变化触发退出。内容包括症状、实际错误、前后对照结果与验证范围，方便遇到相似问题的人检索和复现。
+明明开了 Photoshop 自动恢复，崩溃后还是找不回文件；电脑放着不用，PS 却自己退出，断网重连也会触发闪退。这里记录这两个问题在自己电脑上的排查过程、处理方法和实测结果。
+
+验证环境：Windows 26H2（构建 26340.9843），Photoshop 2026 27.8.0.13。自动恢复已通过崩溃恢复验证；网络问题的局部修正通过六轮重连，长期待机和睡眠唤醒仍待观察。
 
 
 ## 阅读入口
 
 | 案例 | 中文 | English |
 | --- | --- | --- |
-| 自动恢复与非法路径 | [完整案例](docs/autorecover.zh-CN.md) | [Case report](docs/autorecover.en.md) |
-| 网络变化与重入异常 | [完整案例](docs/network-crash.zh-CN.md) | [Case report](docs/network-crash.en.md) |
+| 开了自动恢复，崩溃后仍丢文件 | [完整案例](docs/autorecover.zh-CN.md) | [Case report](docs/autorecover.en.md) |
+| 放着不用、断网重连时闪退 | [完整案例](docs/network-crash.zh-CN.md) | [Case report](docs/network-crash.en.md) |
 
 [脱敏验证摘要](evidence/2026-11-02.json) · [更新记录](CHANGELOG.md)
 
