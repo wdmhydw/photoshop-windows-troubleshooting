@@ -1,0 +1,124 @@
+{
+  "record_date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "kind": "curated_local_case_summary",
+  "environment": {
+    "photoshop_version": "27.8.0.13",
+    "windows_display_version": "26H2",
+    "windows_build": "26340.9843",
+    "installation_baseline": "Existing installation with pre-existing local binary modifications; clean-install recovery reproduction unverified"
+  },
+  "recovery": {
+    "scratch_disk": "E:",
+    "interval_minutes": 5,
+    "documents_before": "E:\\Document",
+    "failed_path": "E:\\PSAutoRecover\\E:",
+    "result": "NAME INVALID",
+    "status_code": "0xC0000033",
+    "documents_alias": "E:\\PSFolderCompat\\Documents",
+    "junction_target": "E:\\Document",
+    "working_recovery_directory": "E:\\PSAutoRecover\\PSFolderCompat",
+    "physical_documents_moved": false,
+    "recovered_after_actual_crash": true,
+    "recovered_after_final_compatibility_change": true,
+    "unsaved_layer_state_matches": true,
+    "before_unsaved_layer_bounds": [
+      91,
+      80,
+      571,
+      400
+    ],
+    "recovered_layer_bounds": [
+      91,
+      80,
+      571,
+      400
+    ]
+  },
+  "network": {
+    "exception_code": "0xe06d7363",
+    "local_throw_cpp_error_argument": 5,
+    "stl_error": "RESOURCE_DEADLOCK_WOULD_OCCUR",
+    "object_type": "uxtech::network::ReachabilityImpl",
+    "intervention": "Exact-binary local mutex compatibility experiment",
+    "changed_bytes": 1,
+    "trials_passed": 6,
+    "normal_exit_verified": true,
+    "trials": [
+      {
+        "trial": 1,
+        "started_at": "2026-11-02T17:16:11.9318282+08:00",
+        "completed_at": "2026-11-02T17:16:41.2441226+08:00",
+        "adapter_restarted": true,
+        "network_up": true,
+        "photoshop_survived": true,
+        "responding": true,
+        "new_crash_events": 0,
+        "after_photoshop_restart": false
+      },
+      {
+        "trial": 2,
+        "started_at": "2026-11-02T17:17:09.225298+08:00",
+        "completed_at": "2026-11-02T17:17:38.4019277+08:00",
+        "adapter_restarted": true,
+        "network_up": true,
+        "photoshop_survived": true,
+        "responding": true,
+        "new_crash_events": 0,
+        "after_photoshop_restart": false
+      },
+      {
+        "trial": 3,
+        "started_at": "2026-11-02T17:17:38.4828057+08:00",
+        "completed_at": "2026-11-02T17:18:05.5718684+08:00",
+        "adapter_restarted": true,
+        "network_up": true,
+        "photoshop_survived": true,
+        "responding": true,
+        "new_crash_events": 0,
+        "after_photoshop_restart": false
+      },
+      {
+        "trial": 4,
+        "started_at": "2026-11-02T17:18:05.5976815+08:00",
+        "completed_at": "2026-11-02T17:18:32.6588596+08:00",
+        "adapter_restarted": true,
+        "network_up": true,
+        "photoshop_survived": true,
+        "responding": true,
+        "new_crash_events": 0,
+        "after_photoshop_restart": false
+      },
+      {
+        "trial": 5,
+        "started_at": "2026-11-02T17:18:32.6846965+08:00",
+        "completed_at": "2026-11-02T17:18:59.7644504+08:00",
+        "adapter_restarted": true,
+        "network_up": true,
+        "photoshop_survived": true,
+        "responding": true,
+        "new_crash_events": 0,
+        "after_photoshop_restart": false
+      },
+      {
+        "trial": 6,
+        "started_at": "2026-11-02T17:22:13.111729+08:00",
+        "completed_at": "2026-11-02T17:22:42.443755+08:00",
+        "adapter_restarted": true,
+        "network_up": true,
+        "photoshop_survived": true,
+        "responding": true,
+        "new_crash_events": 0,
+        "after_photoshop_restart": true
+      }
+    ]
+  },
+  "scope": {
+    "clean_install_full_validation": false,
+    "long_idle_retested": false,
+    "real_sleep_resume_retested": false,
+    "text_hang_resolved": false,
+    "raw_dumps_included": false,
+    "source": "Selected fields from locally retained verification records; this summary is not a raw trace"
+  }
+}
