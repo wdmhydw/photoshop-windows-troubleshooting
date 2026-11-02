@@ -1,4 +1,4 @@
-# PS 开了自动恢复还是丢文件？放着不用就闪退怎么办？
+# PS 自动恢复没用、自动闪退的解决办法
 Photoshop AutoRecover not working and crashes when idle
 
 记录日期：2026-11-02
