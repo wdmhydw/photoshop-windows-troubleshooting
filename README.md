@@ -17,6 +17,8 @@ Photoshop AutoRecover not working and crashes when idle
 
 [脱敏验证摘要](evidence/2026-11-02.json) · [更新记录](CHANGELOG.md)
 
+知乎已发布：[PS 自动恢复没用的解决办法](https://www.zhihu.com/question/562919083/answer/2100648754680484619) · [PS 自动闪退的解决办法](https://zhuanlan.zhihu.com/p/2100649810286089092)
+
 ## 案例一：自动恢复不生效，PSAutoRecover 为空
 
 现象：自动存储恢复信息开启，暂存盘为 E:，崩溃后没有恢复文档；同机 Illustrator 恢复正常。
